@@ -1,5 +1,6 @@
 function myFunc(){
     var circle=document.getElementById('circle');
+    circle.style.opacity=0.5;
 
     function change(){
         circle.style.backgroundColor='blue';
