@@ -4,6 +4,7 @@ function myFunc(){
 
     function change(){
         circle.style.backgroundColor='blue';
+        circle.style.opacity=1;
     }
     circle.addEventListener('click',change);
 }
